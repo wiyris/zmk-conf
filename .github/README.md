@@ -7,5 +7,5 @@ Heavily inspired by [urob's config](https://github.com/urob/zmk-config) and [T-3
 ## Details
 
 - Base layout : [Hands Down Promethium](https://cyanophage.github.io/#handsdown-promethium)
-- [Timeless home row mods](https://github.com/urob/zmk-config#timeless-homerow-mods)
+- [Timeless homerow mods](https://github.com/urob/zmk-config#timeless-homerow-mods)
 - Combos with a thumb key
