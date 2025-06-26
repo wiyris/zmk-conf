@@ -1,9 +1,10 @@
 # Temper ZMK Config
 
 This is my personal ZMK config for the [temper](https://github.com/raeedcho/temper).
+heavily inspired by [urob's config](https://github.com/urob/zmk-config) and [T-34 Layout](https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/)
 
 ## Details
 
-- Base layout : [Hands Down Promethium](https://www.reddit.com/r/KeyboardLayouts/comments/1g66ivi/hands_down_promethium_snth_meets_hd_silverengram/) ([stats](https://cyanophage.github.io/#handsdown-promethium))
-- [timer-less home row mods](https://github.com/urob/zmk-config#timeless-homerow-mods)
+- Base layout : [Hands Down Promethium](https://cyanophage.github.io/#handsdown-promethium)
+- [Timeless home row mods](https://github.com/urob/zmk-config#timeless-homerow-mods)
 - Combos with a thumb key
