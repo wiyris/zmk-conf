@@ -8,3 +8,5 @@ This is my personal ZMK config for the [temper](https://github.com/raeedcho/temp
 - Base layout : [Hands Down Promethium](https://cyanophage.github.io/#handsdown-promethium)
 - [Timeless homerow mods](https://github.com/urob/zmk-config#timeless-homerow-mods)
 - Combos with a thumb key
+
+![Temper Keymap](./keymap.svg)
