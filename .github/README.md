@@ -1,6 +1,7 @@
 # Temper ZMK Config
 
 This is my personal ZMK config for the [temper](https://github.com/raeedcho/temper).
+
 - Heavily inspired by [urob's config](https://github.com/urob/zmk-config) and [T-34 Layout](https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/)
 
 ## Feature
@@ -10,3 +11,9 @@ This is my personal ZMK config for the [temper](https://github.com/raeedcho/temp
 - Combos with a thumb key
 
 ![Temper Keymap](./keymap.svg)
+
+### Combos with a thumb key
+
+- Same hand  = Symbols
+- Cross hand = Number
+![Temper Keymap](./combos.svg)
