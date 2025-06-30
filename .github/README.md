@@ -12,7 +12,7 @@ This is my personal ZMK config for the [temper](https://github.com/raeedcho/temp
 
 ![Temper Keymap](./keymap.svg)
 
-### Combos with a thumb key
+### Combo with a thumb key
 
 - Same hand  = Symbols
 - Cross hand = Number
