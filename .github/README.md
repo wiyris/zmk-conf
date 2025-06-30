@@ -14,6 +14,6 @@ This is my personal ZMK config for the [temper](https://github.com/raeedcho/temp
 
 ### Combo with a thumb key
 
-- Same hand  = Symbols
+- Same hand  = Symbol
 - Cross hand = Number
 ![Temper Keymap](./combos.svg)
