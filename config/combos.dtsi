@@ -39,7 +39,7 @@ ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LC(X)>;
               tapping-term-ms = <200>;)
 
 ZMK_COMBO(cc,  &copy_cut,     LB3 LB2, DEF, COMBO_TERM)
-ZMK_COMBO(paste, &kp LS(INS), LB2 LB1, DEF, COMBO_TERM)
+/* ZMK_COMBO(paste, &kp LS(INS), LB2 LB1, DEF, COMBO_TERM) */
 
 /* Thumbs Combos */
 ZMK_COMBO(pipe,  &kp PIPE,  LT4 LH1,  DEF, COMBO_TERM)
