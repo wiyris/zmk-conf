@@ -7,15 +7,16 @@
   ╰───────╮ LH2 LH1 LH0 │ │ RH0 RH1 RH2 ╭───────╯
           ╰─────────────╯ ╰─────────────╯ */
 
-#define COMBO_TERM_FAST 28
-#define COMBO_TERM_SLOW 65
-
-#define COMBO_IDLE_FAST 150
-#define COMBO_IDLE_SLOW 50
-
 #undef COMBO_TERM
 #define COMBO_TERM 50
 #define COMBO_IDLE 100
+
+#define COMBO_TERM_FAST 28
+#define COMBO_IDLE_FAST 150
+
+#define COMBO_TERM_SLOW 65
+#define COMBO_IDLE_SLOW 50
+
 
 ZMK_COMBO(capsword,  &caps_word,  LM1 RM1, DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(sys,       &mo SYS,     LH2 RH2, DEF, COMBO_TERM, COMBO_IDLE)
