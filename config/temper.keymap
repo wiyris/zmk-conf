@@ -57,8 +57,8 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS) // Left-hand HRMs.
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
 
-MAKE_HRM(hmll, &mo, &kp, KEYS_R THUMBS) // Left-hand HRMs for layer.
-MAKE_HRM(hmrl, &mo, &kp, KEYS_L THUMBS) // Right-hand HRMs for layer.
+MAKE_HRM(hmll, &mo, &kp, KEYS_R THUMBS) // Left-hand layer HRMs.
+MAKE_HRM(hmrl, &mo, &kp, KEYS_L THUMBS) // Right-hand layer HRMs.
 
 /* Tap: num-word | double-tap: sticky num-layer | Hold: num-layer. */
 #define SMART_NUM &smart_num NUM 0
