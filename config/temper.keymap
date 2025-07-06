@@ -133,9 +133,9 @@ ZMK_LAYER(num,
 
 ZMK_LAYER(sym,
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &kp PIPE      &kp RPAR      &kp RBRC      &kp RBKT         XXX             &kp EXCL    &kp BSLH     &kp PERCENT   &kp CARET     &kp GRAVE
+      &kp TILDE     &kp RPAR      &kp RBRC      &kp RBKT         XXX             &kp EXCL    &kp BSLH     &kp PERCENT   &kp CARET     &kp GRAVE
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp TILDE      &kp LPAR      &kp LBRC      &kp LBKT         XXX            &kp LT       &kp ASTRK     &kp HASH     &kp DOLLAR    &kp AMPS
+      &kp PIPE      &kp LPAR      &kp LBRC      &kp LBKT         XXX            &kp LT       &kp ASTRK     &kp HASH     &kp DOLLAR    &kp AMPS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
          XXX           XXX           XXX           XXX           XXX             &kp UNDER    &kp GT        &kp DQT       &kp PLUS     &kp QMARK
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
