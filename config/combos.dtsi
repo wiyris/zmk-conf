@@ -36,7 +36,7 @@ ZMK_COMBO(dqt,   &kp DQT,      RM1 RM3, DEF, COMBO_TERM)
 ZMK_COMBO(under, &kp UNDER,   RT2 RT3,  DEF, COMBO_TERM_FAST, COMBO_IDLE)
 
 // Tap: copy | double-tap: cut.
-ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LC(X)>;
+ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LS(INS)>;
               tapping-term-ms = <200>;)
 
 ZMK_COMBO(cc,  &copy_cut,     LB3 LB2, DEF, COMBO_TERM)
