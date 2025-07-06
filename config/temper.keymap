@@ -72,7 +72,7 @@ ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&sl NUM>;
   ZMK_MOD_MORPH(NAME, mods = <(MOD_L##MOD | MOD_R##MOD)>;                      \
                 bindings = <BINDING1>, <BINDING2>;)
 
-SIMPLE_MORPH(excl_morph, SFT, &kp SEMI &kp EXCL)
+SIMPLE_MORPH(excl_morph, SFT, &kp SEMI, &kp EXCL)
 
 #include "combos.dtsi"
 
