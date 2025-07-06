@@ -72,13 +72,13 @@ ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&sl NUM>;
   ZMK_MOD_MORPH(NAME, mods = <(MOD_L##MOD | MOD_R##MOD)>;                      \
                 bindings = <BINDING1>, <BINDING2>;)
 
-SIMPLE_MORPH(excl_morph, SFT, &kp SEMI, &kp EXCL)
+SIMPLE_MORPH(semiexcl, SFT, &kp SEMI, &kp EXCL)
 
 #include "combos.dtsi"
 
 ZMK_LAYER(base,
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp F         &kp P         &kp D         &kp L         &kp X           &kp SEMI        &kp U         &kp O         &kp Y         &kp B
+        &kp F         &kp P         &kp D         &kp L         &kp X           &semiexcl       &kp U         &kp O         &kp Y         &kp B
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &hml LGUI S   &hml LALT N  &hml LCTRL T  &hml LSHIFT H     &kp K           &kp COMMA   &hmr LSHIFT A &hmr RCTRL E   &hmr LALT I   &hmr RGUI C
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
