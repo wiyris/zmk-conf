@@ -80,7 +80,7 @@ SIMPLE_MORPH(semiexcl, SFT, &kp SEMI, &kp EXCL)
 
 ZMK_LAYER(base,
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp F         &kp P         &kp D         &kp L         &kp X           &semiexcl       &kp U         &kp O         &kp Y         &kp B
+        &kp F         &kp P         &kp D         &kp L         &kp X           &kp SEMI        &kp U         &kp O         &kp Y         &kp B
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &hml LGUI S   &hml LALT N  &hml LCTRL T  &hml LSHIFT H     &kp K           &kp COMMA   &hmr LSHIFT A &hmr RCTRL E   &hmr LALT I   &hmr RGUI C
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
@@ -116,9 +116,9 @@ ZMK_LAYER(num,
 
 ZMK_LAYER(sym,
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &kp TILDE     &kp RPAR      &kp RBRC      &kp RBKT         XXX             &kp EXCL     &kp BSLH     &kp PERCENT    &kp CARET     &kp GRAVE
+      &kp BSLH      &kp RPAR      &kp RBRC      &kp RBKT         XXX            &kp COLON    &kp ASTRK     &kp PERCENT    &kp CARET     &kp GRAVE
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp PIPE      &kp LPAR      &kp LBRC      &kp LBKT         XXX             &kp LT       &kp ASTRK     &kp HASH      &kp AMPS      &kp DOLLAR
+      &kp TILDE     &kp LPAR      &kp LBRC      &kp LBKT      &kp PIPE          &kp LT         &kp EXCL     &kp HASH      &kp AMPS      &kp DOLLAR
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
          XXX           XXX           XXX           XXX           XXX            &kp UNDER      &kp GT       &kp DQT       &kp PLUS      &kp QMARK
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
