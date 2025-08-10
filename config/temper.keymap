@@ -90,13 +90,15 @@ ZMK_LAYER(base,
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 )
 
+// NOTE: Remove Ctrl-PageUp/Down when zen supports tab navigation shortcuts
+// https://github.com/zen-browser/desktop/discussions/2666
 ZMK_LAYER(nav,
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         XXX           XXX           XXX           XXX           XXX             &kp HOME     &kp PGDN      &kp PGUP      &kp END          XXX
+         XXX           XXX           XXX           XXX           XXX             &kp HOME     &kp PGDN      &kp PGUP       &kp END         XXX
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT        XXX             &kp LEFT     &kp DOWN      &kp UP       &kp RIGHT         XXX
+      &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT        XXX             &kp LEFT     &kp DOWN      &kp UP        &kp RIGHT        XXX
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         XXX           XXX           XXX           XXX           XXX               XXX        &kp DOT          XXX           XXX           XXX
+         XXX           XXX           XXX           XXX           XXX           &kp LC(GPDN)   &kp DOT          XXX      &kp LC(PGUP)       XXX
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                      XXX           XXX           XXX               ___        &mo FUN          ___
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
