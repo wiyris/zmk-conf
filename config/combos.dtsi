@@ -18,7 +18,7 @@
 #define COMBO_IDLE_SLOW 50
 
 
-ZMK_COMBO(capsword,  &caps_word,  LM1 RM1, DEF, COMBO_TERM, COMBO_IDLE)
+ZMK_COMBO(capsword,  &caps_word,  LM1 RM1, DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(sys,       &mo SYS,     LH2 RH2, DEF, COMBO_TERM, COMBO_IDLE)
 ZMK_COMBO(fun,       &mo FUN,     LH1 RH1, DEF, COMBO_TERM)
 
