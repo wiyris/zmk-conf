@@ -57,27 +57,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
 MAKE_HRM(hmll, &mo, &kp, KEYS_R THUMBS) // Left-hand layer HRMs.
 MAKE_HRM(hmrl, &mo, &kp, KEYS_L THUMBS) // Right-hand layer HRMs.
 
-/* Tap: num-word | double-tap: sticky num-layer | Hold: num-layer. */
-/* #define SMART_NUM &smart_num NUM 0 */
-/* ZMK_HOLD_TAP(smart_num, bindings = <&mo>, <&num_dance>; flavor = "balanced"; */
-/*              tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;) */
-/* ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&sl NUM>; */
-/*               tapping-term-ms = <200>;) */
-
-/* Tap: num-word | double-tap: caps-word | Hold: num-layer. */
-#define SMART_NUM &smart_num NUM 0
-ZMK_HOLD_TAP(smart_num, bindings = <&mo>, <&num_dance>; flavor = "balanced";
-             tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
-ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&caps_word>;
-              tapping-term-ms = <200>;)
-
-// Define mod-morph with a *single* mod trigger for less repetition.
-#define SIMPLE_MORPH(NAME, MOD, BINDING1, BINDING2)                            \
-  ZMK_MOD_MORPH(NAME, mods = <(MOD_L##MOD | MOD_R##MOD)>;                      \
-                bindings = <BINDING1>, <BINDING2>;)
-
-SIMPLE_MORPH(semiexcl, SFT, &kp SEMI, &kp EXCL)
-
 #include "combos.dtsi"
 
 ZMK_LAYER(base,
