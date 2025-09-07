@@ -1,4 +1,4 @@
-// Settings tuned for 3840 x 2160 display resolution
+// Settings tuned for 1920 x 1080 display resolution
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 600 // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 10  // 10
 
@@ -19,17 +19,6 @@
   delay-ms = <0>;                       // 0
 };
 
-/* &mmv_input_listener { */
-/*   warp { */
-/*     layers = <NAV>; */
-/*     input-processors = <&zip_xy_scaler 3 1>; */
-/*   }; */
-/*   precision { */
-/*     layers = <FN>; */
-/*     input-processors = <&zip_xy_scaler 1 2>; */
-/*   }; */
-/* }; */
-
 / {
   zip_scroll_scaler: zip_scroll_scaler {
     compatible = "zmk,input-processor-scaler";
@@ -39,17 +28,6 @@
     track-remainders;
   };
 };
-
-/* &msc_input_listener { */
-/*   warp { */
-/*     layers = <NAV>; */
-/*     input-processors = <&zip_scroll_scaler 2 1>; */
-/*   }; */
-/*   precision { */
-/*     layers = <FN>; */
-/*     input-processors = <&zip_scroll_scaler 1 2>; */
-/*   }; */
-/* }; */
 
 #define U_MS_U &mmv MOVE_UP
 #define U_MS_D &mmv MOVE_DOWN
