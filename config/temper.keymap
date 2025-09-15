@@ -80,6 +80,11 @@ MAKE_HRM(hmrl, &mo, &kp, KEYS_L THUMBS) // Right-hand layer HRMs.
   };
 };
 
+#define GNAV &lm NAV LGUI
+#define ANAV &lm NAV LALT
+#define CNAV &lm NAV LCTRL
+#define SNAV &lm NAV LSHIFT
+
 #include "combos.dtsi"
 
 ZMK_LAYER(base,
