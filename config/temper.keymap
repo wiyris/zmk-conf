@@ -66,14 +66,14 @@ MAKE_HRM(hmrl, &mo, &kp, KEYS_L THUMBS) // Right-hand layer HRMs.
   ZMK_BEHAVIOR(NAME, hold_tap, flavor = "tap-preferred"; tapping-term-ms = <200>; \
   quick-tap-ms = <QUICK_TAP_MS>; bindings = <MNAV>, <&kp>;)
 
-MAKE_MNAV(gnav, LGUI)
-MAKE_MNAV(anav, LALT)
+/* MAKE_MNAV(gnav, LGUI) */
+/* MAKE_MNAV(anav, LALT) */
 MAKE_MNAV(cnav, LCTRL)
-MAKE_MNAV(snav, LSHIFT)
-MAKE_MTMNAV(mtgnav, &gnav)
-MAKE_MTMNAV(mtanav, &anav)
+/* MAKE_MNAV(snav, LSHIFT) */
+/* MAKE_MTMNAV(mtgnav, &gnav) */
+/* MAKE_MTMNAV(mtanav, &anav) */
 MAKE_MTMNAV(mtcnav, &cnav)
-MAKE_MTMNAV(mtsnav, &snav)
+/* MAKE_MTMNAV(mtsnav, &snav) */
 
 #include "combos.dtsi"
 
