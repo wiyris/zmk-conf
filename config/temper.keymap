@@ -58,6 +58,11 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
 MAKE_HRM(hmll, &mo, &kp, KEYS_R THUMBS) // Left-hand layer HRMs.
 MAKE_HRM(hmrl, &mo, &kp, KEYS_L THUMBS) // Right-hand layer HRMs.
 
+ZMK_MACRO_TWO_PARAM(lctrl_nav,
+  param1 = <&kp LCTRL>;
+  param2 = <&mo NAV>;
+)
+
 #include "combos.dtsi"
 
 ZMK_LAYER(base,
@@ -68,7 +73,7 @@ ZMK_LAYER(base,
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp V         &kp W         &kp G         &kp M         &kp J           &kp MINUS      &kp DOT       &kp APOS     &kp EQUAL     &kp SLASH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                &mt LGUI TAB    &lt NAV R   &lt MOUSE RET       &mo SYM     &lt NUM SPACE    &kp BSPC
+                                &mt LGUI TAB    &lt NAV R   &lt MOUSE RET       lctrl_nav   &lt NUM SPACE   &kp BSPC
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 )
 
