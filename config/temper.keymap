@@ -74,11 +74,8 @@ ZMK_MACRO_TWO_PARAM(lm,
     ;
 )
 
-ZMK_BEHAVIOR(mnav, hold_tap,
-  flavor = "tap-preferred";
-  tapping-term-ms = <200>;
-  quick-tap-ms = <QUICK_TAP_MS>;
-  bindings = <&lm>, <&kp>;
+ZMK_BEHAVIOR(cnav, macro,
+  bindings = <&lm NAV LCTRL>
 )
 
 #include "combos.dtsi"
@@ -91,7 +88,7 @@ ZMK_LAYER(base,
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp V         &kp W         &kp G         &kp M         &kp J           &kp MINUS      &kp DOT       &kp APOS     &kp EQUAL     &kp SLASH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                &mt LGUI TAB    &lt NAV R   &lt MOUSE RET     &lm NAV LCTRL &lt NUM SPACE   &kp BSPC
+                                &mt LGUI TAB    &lt NAV R   &lt MOUSE RET     &mt &cnav SPACE &lt NUM SPACE   &kp BSPC
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 )
 
