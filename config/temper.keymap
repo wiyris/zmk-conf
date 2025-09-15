@@ -75,7 +75,7 @@ ZMK_MACRO_TWO_PARAM(lm,
 )
 
 ZMK_BEHAVIOR(cnav, macro,
-  bindings = <&lm NAV LCTRL>
+  bindings = <&lm NAV LCTRL>;
 )
 
 #include "combos.dtsi"
