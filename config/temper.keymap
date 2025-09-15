@@ -74,7 +74,7 @@ ZMK_MACRO_TWO_PARAM(lm,
     ;
 )
 
-ZMK_BEHAVIOR(cnav, macro,
+ZMK_MACRO(cnav,
   wait-ms = <0>;
   tap-ms = <0>;
   bindings = <&lm NAV LCTRL>;
