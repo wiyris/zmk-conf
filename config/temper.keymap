@@ -76,7 +76,7 @@ ZMK_MACRO_TWO_PARAM(lm,
 
 
 / {
-  nav_ctrl : nav_ctrl {
+  nav_ctrl: nav_ctrl {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
       wait-ms = <0>;
@@ -90,7 +90,7 @@ ZMK_MACRO_TWO_PARAM(lm,
           ;
   };
 
-  mt_nav_ctrl : mt_nav_ctrl {
+  mt_nav_ctrl: mt_nav_ctrl {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
     flavor = "balanced";
