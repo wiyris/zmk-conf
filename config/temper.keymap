@@ -75,6 +75,7 @@ ZMK_MACRO_TWO_PARAM(lm,
 )
 
 ZMK_BEHAVIOR(cnav, macro,
+  #binding-cells = <0>;
   bindings = <&lm NAV LCTRL>;
 )
 
