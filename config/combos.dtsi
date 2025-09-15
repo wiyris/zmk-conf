@@ -18,7 +18,7 @@
 #define COMBO_IDLE_SLOW 50
 
 
-ZMK_COMBO(capsword,  &caps_word,  LM1 RM1, DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(capsword,  &caps_word,  LM1 RM1, DEF, COMBO_TERM, COMBO_IDLE)
 ZMK_COMBO(sys,       &mo SYS,     LH2 RH2, DEF, COMBO_TERM, COMBO_IDLE)
 /* ZMK_COMBO(fun,       &mo FUN,     LH1 RH1, DEF, COMBO_TERM) */
 
@@ -56,10 +56,10 @@ ZMK_COMBO(rbkt,  &kp RBKT,  LT1 LH1,  DEF, COMBO_TERM)
 /* ZMK_COMBO(lpar,  &kp LPAR,  LM3 LH1,  DEF, COMBO_TERM) */
 /* ZMK_COMBO(lbrc,  &kp LBRC,  LM2 LH1,  DEF, COMBO_TERM) */
 /* ZMK_COMBO(lbkt,  &kp LBKT,  LM1 LH1,  DEF, COMBO_TERM) */
-ZMK_COMBO(tilde, &mtcnav 0 SPACE, LM4 LH1,  DEF, COMBO_TERM)
-/* ZMK_COMBO(lpar,  &mtanav 0 LPAR,  LM3 LH1,  DEF, COMBO_TERM) */
-/* ZMK_COMBO(lbrc,  &mtcnav 0 LBRC,  LM2 LH1,  DEF, COMBO_TERM) */
-/* ZMK_COMBO(lbkt,  &mtsnav 0 LBKT,  LM1 LH1,  DEF, COMBO_TERM) */
+ZMK_COMBO(tilde, &mtgnav 0 TILDE, LM4 LH1,  DEF, COMBO_TERM)
+ZMK_COMBO(lpar,  &mtanav 0 LPAR,  LM3 LH1,  DEF, COMBO_TERM)
+ZMK_COMBO(lbrc,  &mtcnav 0 LBRC,  LM2 LH1,  DEF, COMBO_TERM)
+ZMK_COMBO(lbkt,  &mtsnav 0 LBKT,  LM1 LH1,  DEF, COMBO_TERM)
 ZMK_COMBO(pipe,  &kp PIPE,  LM0 LH1,  DEF, COMBO_TERM)
 
 ZMK_COMBO(grave,  &kp GRAVE,  RT4 RH1,  DEF, COMBO_TERM)
