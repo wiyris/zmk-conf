@@ -88,7 +88,7 @@ MAKE_HRM(hmrl, &mo, &kp, KEYS_L THUMBS) // Right-hand layer HRMs.
     bindings = <&macro_press &mo NAV>, <&macro_press &kp MOD>, <&macro_pause_for_release>, <&macro_release &kp MOD>, <&macro_release &mo NAV>;)
 
 #define MAKE_MTMNAV(NAME, MNAV)                   \
-  ZMK_BEHAVIOR(NAME, hold_tap;   flavor = "tap-preferred"; tapping-term-ms = <200>; \
+  ZMK_BEHAVIOR(NAME, hold_tap, flavor = "tap-preferred"; tapping-term-ms = <200>; \
   quick-tap-ms = <QUICK_TAP_MS>; bindings = <MNAV>, <&kp>;
 
 MAKE_MNAV(cnav, LCTRL)
@@ -111,7 +111,7 @@ ZMK_LAYER(base,
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp V         &kp W         &kp G         &kp M         &kp J           &kp MINUS      &kp DOT       &kp APOS     &kp EQUAL     &kp SLASH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                &mt LGUI TAB    &lt NAV R   &lt MOUSE RET     &mtcnav SPACE &lt NUM SPACE   &kp BSPC
+                                &mt LGUI TAB    &lt NAV R   &lt MOUSE RET     &mtcnav 0 SPACE &lt NUM SPACE   &kp BSPC
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 )
 
