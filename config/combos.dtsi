@@ -36,8 +36,8 @@ ZMK_COMBO(mozc,  &kp LC(SPACE),LM3 LM1, DEF, COMBO_TERM_SLOW)
 /* ZMK_COMBO(caret,  &kp CARET,    RT1 RT2,  DEF, COMBO_TERM, COMBO_IDLE) */
 ZMK_COMBO(at, &kp AT,   RT2 RT3,  DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
-ZMK_COMBO(vpipe,  &kp PIPE,  LT1 LM1,  DEF, COMBO_TERM_SLOW)
-ZMK_COMBO(vexcl,  &kp EXCL,  RM1 RT1,  DEF, COMBO_TERM_SLOW)
+ZMK_COMBO(vpipe,  &kp PIPE,  LM1 LB1,  DEF, COMBO_TERM_SLOW)
+ZMK_COMBO(vexcl,  &kp EXCL,  RM1 RB1,  DEF, COMBO_TERM_SLOW)
 
 // Tap: copy | double-tap: cut.
 ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LS(X)>;
@@ -45,7 +45,7 @@ ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LS(X)>;
 
 ZMK_COMBO(cc,    &copy_cut,     LB3 LB2, DEF, COMBO_TERM)
 ZMK_COMBO(paste, &kp LC(LS(V)), LB2 LB1, DEF, COMBO_TERM)
-ZMK_COMBO(cz,    &kp LC(Z),     LB3 LB1, DEF, COMBO_TERM_SLOW)
+ZMK_COMBO(cz,    &kp LC(Z),     LT1 LT0, DEF, COMBO_TERM_SLOW)
 
 /* Thumbs Combos */
 ZMK_COMBO(bslh,  &kp BSLH,  LT4 LH1,  DEF, COMBO_TERM)
@@ -73,6 +73,7 @@ ZMK_COMBO(excl,   &kp EXCL,   RM1 RH1,  DEF, COMBO_TERM)
  
 ZMK_COMBO(0, &kp N0,  LM4 RH1,  DEF, COMBO_TERM)
 /* ZMK_COMBO(a0,&kp N0,  LH1 RH1,  DEF, COMBO_TERM_FAST) */
+ZMK_COMBO(a0, &lt FUN N0,  LH1 RH1,  DEF, COMBO_TERM_FAST)
 ZMK_COMBO(1, &kp N1,  LM3 RH1,  DEF, COMBO_TERM)
 ZMK_COMBO(2, &kp N2,  LM2 RH1,  DEF, COMBO_TERM)
 ZMK_COMBO(3, &kp N3,  LM1 RH1,  DEF, COMBO_TERM)
