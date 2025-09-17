@@ -40,11 +40,11 @@ ZMK_COMBO(vpipe,  &kp PIPE,  LM1 LB1,  DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(vexcl,  &kp EXCL,  RM1 RB1,  DEF, COMBO_TERM_SLOW)
 
 // Tap: copy | double-tap: cut.
-ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LS(X)>;
+ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LC(X)>;
               tapping-term-ms = <200>;)
 
 ZMK_COMBO(cc,    &copy_cut,     LB3 LB2, DEF, COMBO_TERM)
-ZMK_COMBO(paste, &kp LC(LS(V)), LB2 LB1, DEF, COMBO_TERM)
+ZMK_COMBO(paste, &kp LC(V), LB2 LB1, DEF, COMBO_TERM)
 ZMK_COMBO(cz,    &kp LC(Z),     LT1 LT0, DEF, COMBO_TERM_SLOW)
 
 /* Thumbs Combos */
