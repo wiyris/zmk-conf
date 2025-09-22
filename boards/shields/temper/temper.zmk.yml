@@ -10,5 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - temper_right
   - temper_left
+  - temper_right
