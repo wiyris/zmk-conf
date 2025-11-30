@@ -52,9 +52,12 @@ ZMK_COMBO(cz,    &kp LC(Z),     LT1 LT0, DEF, COMBO_TERM_SLOW)
 
 /* Thumbs Combos */
 ZMK_COMBO(bslh,  &kp BSLH,  LT4 LH1,  DEF, COMBO_TERM)
-ZMK_COMBO(rpar,  &kp RPAR,  LT3 LH1,  DEF, COMBO_TERM)
-ZMK_COMBO(rbrc,  &kp RBRC,  LT2 LH1,  DEF, COMBO_TERM)
-ZMK_COMBO(rbkt,  &kp RBKT,  LT1 LH1,  DEF, COMBO_TERM)
+/* ZMK_COMBO(rpar,  &kp RPAR,  LT3 LH1,  DEF, COMBO_TERM) */
+/* ZMK_COMBO(rbrc,  &kp RBRC,  LT2 LH1,  DEF, COMBO_TERM) */
+/* ZMK_COMBO(rbkt,  &kp RBKT,  LT1 LH1,  DEF, COMBO_TERM) */
+ZMK_COMBO(rpar,  &kp RPAR,  LM3 LH1,  DEF, COMBO_TERM)
+ZMK_COMBO(rbrc,  &kp RBRC,  LM2 LH1,  DEF, COMBO_TERM)
+ZMK_COMBO(rbkt,  &kp RBKT,  LM1 LH1,  DEF, COMBO_TERM)
 /* ZMK_COMBO(tilde, &kp TILDE, LM4 LH1,  DEF, COMBO_TERM) */
 /* ZMK_COMBO(lpar,  &kp LPAR,  LM3 LH1,  DEF, COMBO_TERM) */
 /* ZMK_COMBO(lbrc,  &kp LBRC,  LM2 LH1,  DEF, COMBO_TERM) */
