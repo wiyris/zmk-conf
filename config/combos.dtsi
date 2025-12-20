@@ -9,7 +9,7 @@
 
 #undef COMBO_TERM
 #define COMBO_TERM 35
-#define COMBO_IDLE 70
+#define COMBO_IDLE 50
 
 #define COMBO_TERM_FAST 20
 #define COMBO_IDLE_FAST 70
@@ -35,6 +35,10 @@ ZMK_COMBO(vpipe,  &kp PIPE,  LM1 LT1,  DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(vbslh,  &kp BSLH,  LM2 LT2,  DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(vastrk, &kp ASTRK, RM1 RT1,  DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(vamps,  &kp AMPS,  RM2 RT2,  DEF, COMBO_TERM_SLOW)
+
+ZMK_COMBO(vrpar,  &kp RPAR,  RM3 RB3,  DEF, COMBO_TERM_SLOW)
+ZMK_COMBO(vrbrc,  &kp RBRC,  RM2 RB2,  DEF, COMBO_TERM_SLOW)
+ZMK_COMBO(vrbkt,  &kp RBKT,  RM1 RB1,  DEF, COMBO_TERM_SLOW)
 
 // Tap: copy | double-tap: cut.
 ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LC(X)>;
