@@ -28,7 +28,7 @@ ZMK_COMBO(z,     &kp Z,   LT2 LT1, DEF, COMBO_TERM)
 ZMK_COMBO(caret, &kp CARET, RT1 RT2, DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(at,    &kp AT,    RT2 RT3, DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
-ZMK_COMBO(mozc,   &kp LC(SPACE),LM3 LM1, DEF, COMBO_TERM_SLOW)
+ZMK_COMBO(fcitx,  &kp LC(LA(J)),LM3 LM1, DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(percent,&kp PERCENT,  RM1 RM3, DEF, COMBO_TERM)
 
 ZMK_COMBO(vpipe,  &kp PIPE,  LM1 LT1,  DEF, COMBO_TERM_SLOW)
@@ -41,7 +41,7 @@ ZMK_COMBO(vrbrc,  &kp RBRC,  RM2 RB2,  DEF, COMBO_TERM_SLOW)
 ZMK_COMBO(vrbkt,  &kp RBKT,  RM1 RB1,  DEF, COMBO_TERM_SLOW)
 
 // Tap: copy | double-tap: cut.
-ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(C)>, <&kp LC(X)>;
+ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(INSERT)>, <&kp LC(X)>;
               tapping-term-ms = <200>;)
 
 ZMK_COMBO(cc,    &copy_cut,     LB3 LB2, DEF, COMBO_TERM)
